@@ -26,6 +26,6 @@ videos.forEach(id => {
 
 // 🔹 Register Service Worker
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js")
+  navigator.serviceWorker.register("/kids_tube/service-worker.js")
     .then(() => console.log("Service Worker Registered"));
 }
